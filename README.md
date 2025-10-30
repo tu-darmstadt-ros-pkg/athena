@@ -3,6 +3,7 @@
 > [!note]
 > This repository is still being filled.
 > KiCAD files and lessons learned will be added soon.
+> New data will be followed by a new release, so you can just watch for releases.
 
 This repository documents the Athena robot.
 All required CAD and KiCAD files are available here to serve as inspiration.
