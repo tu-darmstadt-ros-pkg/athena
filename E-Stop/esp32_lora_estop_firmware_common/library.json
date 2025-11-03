@@ -1,0 +1,33 @@
+{
+    "name": "esp32_lora_estop_firmware_common",
+    "version": "1.0.0",
+    "description": "A shared common library for sender and receiver projects.",
+    "keywords": [
+        "estop"
+    ],
+    "authors": [
+        {
+            "name": "Stefan Fabian",
+            "email": "fabian@sim.tu-darmstadt.de"
+        }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "jgromes/RadioLib": "^7.1.2",
+        "jgromes/RadioBoards": "^1.0.0",
+        "pfeerick/elapsedMillis": "^1.0.6",
+        "h2zero/NimBLE-Arduino": "^2.3.0"
+    },
+    "build": {
+        "flags": [
+            "-std=c++17",
+            "-std=gnu++17"
+        ]
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "espressif32"
+    ]
+}

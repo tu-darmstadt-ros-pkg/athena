@@ -1,2 +1,6 @@
-
+.idea/
+.pio/
+.vscode/
+cmake-build-*/
+build/
 *.bak

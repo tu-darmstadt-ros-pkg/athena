@@ -1,0 +1,4 @@
+# If false, the received will ignore the status of the e-stop and
+# keep the system running. 
+bool enabled
+---

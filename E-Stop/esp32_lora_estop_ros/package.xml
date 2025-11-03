@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>esp32_lora_estop_ros</name>
+  <version>0.0.0</version>
+  <description>Server node to enable control and publish information from E-Stop receiver to ROS 2.</description>
+
+  <maintainer email="fabian@sim.tu-darmstadt.de">Stefan Fabian</maintainer>
+  <license>MIT</license>
+  <author email="fabian@sim.tu-darmstadt.de">Stefan Fabian</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>hector_ros2_utils</build_depend>
+  <depend>esp32_lora_estop_interface</depend>
+  <depend>libserial-dev</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

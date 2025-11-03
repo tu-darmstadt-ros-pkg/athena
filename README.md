@@ -36,6 +36,11 @@ Please note that the belts are mostly visual only, and the actual belt lengths a
 
 In the [electronics](electronics) folder, the custom PCBs used to distribute power and ensure safety during operation can be found.
 
+## Remote E-Stop
+
+The source code and bill of materials for the ~80€ remote e-stop can be found in [E-Stop](E-Stop).
+This ESP32-based remote E-Stop transmits its state over BLE, ESP-NOW and LoRa for high reliability and low triggering times of up (or down) to 10ms.
+
 ## Stats
 
 | | |
