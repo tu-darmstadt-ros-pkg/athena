@@ -29,8 +29,12 @@ FOV wide-angle camera enable comprehensive colored 3D environment perception.
 
 ## CAD
 
-The CAD folder contains all CAD data as Fusion archive for editing and alternatively also as STEP.
+The [CAD](CAD) folder contains all CAD data as Fusion archive for editing and alternatively also as STEP.
 Please note that the belts are mostly visual only, and the actual belt lengths are not reflected in the model.
+
+## Electronics
+
+In the [electronics](electronics) folder, the custom PCBs used to distribute power and ensure safety during operation can be found.
 
 ## Stats
 
