@@ -52,6 +52,10 @@ This ESP32-based remote E-Stop transmits its state over BLE, ESP-NOW and LoRa fo
 | Max payload @1m       | 4.8kg  |
 | Max payload @1.54m    | 2.9kg  |
 
+## Software
+
+* **Motor Driver**: [athena_motor_driver](https://github.com/tu-darmstadt-ros-pkg/athena_motor_driver) provides firmware for the Teensy and ROS driver to torque-control the Unitree A1 motors. 
+
 ## Pictures
 
 <img src="https://github.com/user-attachments/assets/71a8bbf7-2d84-4618-9528-5a618330b165" alt="The robot Athena on the maximum step height that was tested at 41cm" width="800"/>
