@@ -26,6 +26,18 @@ FOV wide-angle camera enable comprehensive colored 3D environment perception.
 
 <img height="360" alt="The FOV of the individual sensors of the environment perception module" src="https://github.com/user-attachments/assets/75c30095-1a4d-4143-95c6-520780d4ad9e" />
 
+## Scientific Works
+
+Please cite as
+```
+@INPROCEEDINGS{fabian2025athena,
+  author={Fabian, Stefan and Schmidt, Aljoscha and Süß, Jonas and Dishant and Oza, Aum and Von Stryk, Oskar},
+  booktitle={2025 IEEE International Symposium on Safety Security Rescue Robotics (SSRR)}, 
+  title={Athena: An Autonomous Open-Hardware Tracked Rescue Robot Platform}, 
+  year={2025},
+  pages={166-171},
+  doi={10.1109/SSRR68451.2025.11391264}}
+```
 
 ## CAD
 
@@ -63,3 +75,7 @@ This ESP32-based remote E-Stop transmits its state over BLE, ESP-NOW and LoRa fo
 <img src="https://github.com/user-attachments/assets/bfc532a7-3277-4dac-a2e8-db4569d3366b" alt="The robot Athena on 45 degree industrial metal stairs." width="402"/>
 
 <img src="https://github.com/user-attachments/assets/0aa31b29-0e72-4540-bcff-a4a3ee0761b0" alt="The robot Athena lifting a gallon and multiple water bottles totaling about 7.2kg" width="392"/>
+
+## Lessons learned
+
+* [Drive](LESSONS_LEARNED_DRIVE.md)
