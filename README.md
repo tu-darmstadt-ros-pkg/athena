@@ -26,9 +26,9 @@ FOV wide-angle camera enable comprehensive colored 3D environment perception.
 
 <img height="360" alt="The FOV of the individual sensors of the environment perception module" src="https://github.com/user-attachments/assets/75c30095-1a4d-4143-95c6-520780d4ad9e" />
 
-## Scientific Works
+## Paper
 
-Please cite as
+You can find the [preprint here](https://arxiv.org/abs/2602.19898). Please cite as
 ```
 @INPROCEEDINGS{fabian2025athena,
   author={Fabian, Stefan and Schmidt, Aljoscha and Süß, Jonas and Dishant and Oza, Aum and Von Stryk, Oskar},
