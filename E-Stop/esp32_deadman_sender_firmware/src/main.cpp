@@ -16,7 +16,7 @@ elapsedMillis last_print = 0;
 void setup()
 {
   Serial.begin( 115200 );
-  Serial.println( "Starting HECTOR Deadman Switch..." );
+  Serial.println( "Starting " ROBOT_NAME " Deadman Switch..." );
 
   sender.initialize( RECEIVER_PEER_INFO );
   sender.setActive( false );
